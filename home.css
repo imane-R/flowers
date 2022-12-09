@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 body {
-  margin: 22px;
   font-family: "Roboto", sans-serif;
 }
 /* header style  *************************/
@@ -9,6 +8,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+  margin-top: 26px;
 }
 .nav-link {
   padding: 5px;
@@ -26,6 +26,7 @@ a {
 .firstSection {
   display: flex;
   justify-content: space-between;
+  margin: 15px;
   margin-top: 9%;
 }
 .title {
@@ -49,4 +50,42 @@ a {
 .preImage {
   padding-bottom: 24px;
   width: 31%;
+}
+/* section 2  */
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 65px;
+  margin-bottom: 65px;
+}
+.priceCart {
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  color: #ffff;
+  background-color: #ff8f52;
+  border: none !important;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.bestSeleres {
+  text-align: center;
+}
+.BestSelers {
+  background-color: #dadada;
+  padding: 20px;
+}
+.card {
+  background-color: #ffff;
+  padding: 10px;
+}
+/* footer */
+footer {
+  background-color: #454545;
+  padding: 70px;
+}
+.footerLogo {
+  display: block;
+  margin: auto;
 }
